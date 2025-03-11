@@ -15,7 +15,7 @@ for i in range(numFatias):
 # Garantir que a entrada do usuário está dentro dos limites
 while True:
     try:
-        destacar = int(input(f"Qual fatia você quer destacar? (1 a {numFatias}) ")) - 1
+        destacar = int(input(f"Qual fatia voce quer destacar? (1 a {numFatias}) ")) - 1
         if 0 <= destacar < numFatias:
             break
         else:
